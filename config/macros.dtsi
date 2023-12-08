@@ -1,3 +1,15 @@
+macro_alt_tab: macro_alt_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_tab";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp TAB>;
+};
+macro_ctrl_alt_del: macro_ctrl_alt_del{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_alt_del";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp DELETE>;
+};
 macro_unlock: macro_unlock{
 compatible = "zmk,behavior-macro";
 label = "macro_unlock";
